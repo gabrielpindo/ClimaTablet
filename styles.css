@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: monospace;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(211, 212, 212);
+    display: flex;
+}
+
+.imagenes{
+    width: 80%;
+    background-color: black;
+}
+
+.imagenes img{
+    width: 100%;
+}
+
+.barraLateral{
+    height: 100%;
+    width: 20%;
+    background-color: rgba(26, 19, 44, 0.911);
+    color: whitesmoke;
+}
+
+.reloj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(42, 130, 165, 0.561); */
+    height: 40%;
+    font-size: 2em;
+}
+
+.calendario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /*  background-color: rgba(40, 192, 65, 0.712); */
+    height: 40%;
+    font-size: 2em;
+}
+
+.climaPronostico{
+    padding:20px;
+    height: 20%;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
