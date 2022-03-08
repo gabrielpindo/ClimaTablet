@@ -21,11 +21,11 @@
             document.getElementById("minutos").textContent = minutos
         }
 
-        if(segundos < 10){
+        /* if(segundos < 10){
             document.getElementById("segundos").textContent = "0" + segundos
         }else{
             document.getElementById("segundos").textContent = segundos
-        }
+        } */
 
         let semana = ["DOMINGO", "LUNES", "MARTES", "MIERCOLES", "JUEVES", "VIERNES", "SABADO" ]
 
@@ -35,7 +35,7 @@
     }
 
     actualizarHora();
-    let intervalo = setInterval(actualizarHora, 10000)
+    let intervalo = setInterval(actualizarHora, 1000)
 
 } ())
 
