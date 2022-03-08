@@ -35,7 +35,7 @@
     }
 
     actualizarHora();
-    let intervalo = setInterval(actualizarHora, 1000)
+    let intervalo = setInterval(actualizarHora, 10000)
 
 } ())
 

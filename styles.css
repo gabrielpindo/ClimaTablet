@@ -35,7 +35,7 @@
     align-items: center;
     /* background-color: rgba(42, 130, 165, 0.561); */
     height: 40%;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .calendario{
@@ -45,13 +45,13 @@
     align-items: center;
    /*  background-color: rgba(40, 192, 65, 0.712); */
     height: 40%;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .climaPronostico{
     padding:20px;
     height: 20%;
-    font-size: 2em;
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
